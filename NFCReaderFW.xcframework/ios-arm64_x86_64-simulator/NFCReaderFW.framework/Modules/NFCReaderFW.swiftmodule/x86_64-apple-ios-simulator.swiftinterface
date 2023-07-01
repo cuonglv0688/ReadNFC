@@ -634,9 +634,8 @@ public class OpenSSLUtils {
   public static func computeSharedSecret(privateKeyPair: Swift.OpaquePointer, publicKey: Swift.OpaquePointer) -> [Swift.UInt8]
   @objc deinit
 }
-@objc @available(iOS 13, *)
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, *)
 public class NFCReader : ObjectiveC.NSObject {
-  public init(logLevel: NFCReaderFW.LogLevel = .info, masterListURL: Foundation.URL? = nil)
   public func setPrivateKey(privateKey: Swift.String)
   #if compiler(>=5.3) && $AsyncAwait
   public func readPassport(passportNumber: Swift.String, dateOfBirth: Foundation.Date, dateOfExpiry: Foundation.Date, tags: [NFCReaderFW.DataGroupId] = [], skipSecureElements: Swift.Bool = true, skipCA: Swift.Bool = false, skipPACE: Swift.Bool = false, customDisplayMessage: ((NFCReaderFW.NFCViewDisplayMessage) -> Swift.String?)? = nil) async throws -> NFCReaderFW.NFCPassportModel
