@@ -20,9 +20,8 @@ Pod::Spec.new do |spec|
   spec.dependency "Alamofire", '5.7.1'
   spec.xcconfig          = { 'OTHER_LDFLAGS' => '-weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit' }
 
-  spec.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = {
+      'SWIFT_INCLUDE_PATHS' => '"\$(PODS_ROOT)/NFCReader/NFCReader.framework"'
+    }
 
 end

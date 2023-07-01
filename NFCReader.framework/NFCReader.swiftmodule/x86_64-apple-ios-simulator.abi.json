@@ -9744,6 +9744,557 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "NFCReader"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreNFC",
+        "printedName": "CoreNFC",
+        "declKind": "Import",
+        "moduleName": "NFCReader"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "NFCReader"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PassportReader",
+        "printedName": "PassportReader",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(logLevel:masterListURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PassportReader",
+                "printedName": "NFCReader.PassportReader",
+                "usr": "c:@M@NFCReader@objc(cs)PassportReader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "NFCReader.LogLevel",
+                "hasDefaultArg": true,
+                "usr": "s:9NFCReader8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9NFCReader14PassportReaderC8logLevel13masterListURLAcA03LogE0O_10Foundation0H0VSgtcfc",
+            "mangledName": "$s9NFCReader14PassportReaderC8logLevel13masterListURLAcA03LogE0O_10Foundation0H0VSgtcfc",
+            "moduleName": "NFCReader",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setPrivateKey",
+            "printedName": "setPrivateKey(privateKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NFCReader14PassportReaderC13setPrivateKey07privateF0ySS_tF",
+            "mangledName": "$s9NFCReader14PassportReaderC13setPrivateKey07privateF0ySS_tF",
+            "moduleName": "NFCReader",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readPassport",
+            "printedName": "readPassport(passportNumber:dateOfBirth:dateOfExpiry:tags:skipSecureElements:skipCA:skipPACE:customDisplayMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NFCPassportModel",
+                "printedName": "NFCReader.NFCPassportModel",
+                "usr": "s:9NFCReader16NFCPassportModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NFCReader.DataGroupId]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataGroupId",
+                    "printedName": "NFCReader.DataGroupId",
+                    "usr": "s:9NFCReader11DataGroupIdO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((NFCReader.NFCViewDisplayMessage) -> Swift.String?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NFCReader.NFCViewDisplayMessage) -> Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCViewDisplayMessage",
+                        "printedName": "NFCReader.NFCViewDisplayMessage",
+                        "usr": "s:9NFCReader21NFCViewDisplayMessageO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NFCReader14PassportReaderC04readB014passportNumber11dateOfBirth0gH6Expiry4tags18skipSecureElements0L2CA0L4PACE20customDisplayMessageAA16NFCPassportModelCSS_10Foundation4DateVAQSayAA11DataGroupIdOGS3bSSSgAA07NFCViewrS0OcSgtYaKF",
+            "mangledName": "$s9NFCReader14PassportReaderC04readB014passportNumber11dateOfBirth0gH6Expiry4tags18skipSecureElements0L2CA0L4PACE20customDisplayMessageAA16NFCPassportModelCSS_10Foundation4DateVAQSayAA11DataGroupIdOGS3bSSSgAA07NFCViewrS0OcSgtYaKF",
+            "moduleName": "NFCReader",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readPassportWithMRZKEY",
+            "printedName": "readPassportWithMRZKEY(mrzKey:tags:skipSecureElements:skipCA:skipPACE:customDisplayMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NFCPassportModel",
+                "printedName": "NFCReader.NFCPassportModel",
+                "usr": "s:9NFCReader16NFCPassportModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NFCReader.DataGroupId]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DataGroupId",
+                    "printedName": "NFCReader.DataGroupId",
+                    "usr": "s:9NFCReader11DataGroupIdO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((NFCReader.NFCViewDisplayMessage) -> Swift.String?)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(NFCReader.NFCViewDisplayMessage) -> Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCViewDisplayMessage",
+                        "printedName": "NFCReader.NFCViewDisplayMessage",
+                        "usr": "s:9NFCReader21NFCViewDisplayMessageO"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NFCReader14PassportReaderC04readB10WithMRZKEY6mrzKey4tags18skipSecureElements0J2CA0J4PACE20customDisplayMessageAA16NFCPassportModelCSS_SayAA11DataGroupIdOGS3bSSSgAA07NFCViewpQ0OcSgtYaKF",
+            "mangledName": "$s9NFCReader14PassportReaderC04readB10WithMRZKEY6mrzKey4tags18skipSecureElements0J2CA0J4PACE20customDisplayMessageAA16NFCPassportModelCSS_SayAA11DataGroupIdOGS3bSSSgAA07NFCViewpQ0OcSgtYaKF",
+            "moduleName": "NFCReader",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PassportReader",
+                "printedName": "NFCReader.PassportReader",
+                "usr": "c:@M@NFCReader@objc(cs)PassportReader"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@NFCReader@objc(cs)PassportReader(im)init",
+            "mangledName": "$s9NFCReader14PassportReaderCACycfc",
+            "moduleName": "NFCReader",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "tagReaderSessionDidBecomeActive",
+            "printedName": "tagReaderSessionDidBecomeActive(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFCTagReaderSession",
+                "printedName": "CoreNFC.NFCTagReaderSession",
+                "usr": "c:objc(cs)NFCTagReaderSession"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NFCReader14PassportReaderC03tagC22SessionDidBecomeActiveyySo06NFCTagcE0CF",
+            "mangledName": "$s9NFCReader14PassportReaderC03tagC22SessionDidBecomeActiveyySo06NFCTagcE0CF",
+            "moduleName": "NFCReader",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tagReaderSession",
+            "printedName": "tagReaderSession(_:didInvalidateWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFCTagReaderSession",
+                "printedName": "CoreNFC.NFCTagReaderSession",
+                "usr": "c:objc(cs)NFCTagReaderSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NFCReader14PassportReaderC03tagC7Session_22didInvalidateWithErrorySo06NFCTagcE0C_s0I0_ptF",
+            "mangledName": "$s9NFCReader14PassportReaderC03tagC7Session_22didInvalidateWithErrorySo06NFCTagcE0C_s0I0_ptF",
+            "moduleName": "NFCReader",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tagReaderSession",
+            "printedName": "tagReaderSession(_:didDetect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFCTagReaderSession",
+                "printedName": "CoreNFC.NFCTagReaderSession",
+                "usr": "c:objc(cs)NFCTagReaderSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreNFC.NFCTag]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCTag",
+                    "printedName": "CoreNFC.NFCTag",
+                    "usr": "s:7CoreNFC6NFCTagO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NFCReader14PassportReaderC03tagC7Session_9didDetectySo06NFCTagcE0C_Say7CoreNFC0H0OGtF",
+            "mangledName": "$s9NFCReader14PassportReaderC03tagC7Session_9didDetectySo06NFCTagcE0C_Say7CoreNFC0H0OGtF",
+            "moduleName": "NFCReader",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateReaderSessionMessage",
+            "printedName": "updateReaderSessionMessage(alertMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFCViewDisplayMessage",
+                "printedName": "NFCReader.NFCViewDisplayMessage",
+                "usr": "s:9NFCReader21NFCViewDisplayMessageO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9NFCReader14PassportReaderC06updateC14SessionMessage05alertF0yAA014NFCViewDisplayF0O_tF",
+            "mangledName": "$s9NFCReader14PassportReaderC06updateC14SessionMessage05alertF0yAA014NFCViewDisplayF0O_tF",
+            "moduleName": "NFCReader",
+            "isOpen": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@NFCReader@objc(cs)PassportReader",
+        "mangledName": "$s9NFCReader14PassportReaderC",
+        "moduleName": "NFCReader",
+        "isOpen": true,
+        "intro_iOS": "13",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NFCTagReaderSessionDelegate",
+            "printedName": "NFCTagReaderSessionDelegate",
+            "usr": "s:7CoreNFC27NFCTagReaderSessionDelegateP",
+            "mangledName": "$s7CoreNFC27NFCTagReaderSessionDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NFCReader",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "DataGroupId",
         "printedName": "DataGroupId",
@@ -30592,545 +31143,24 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "NFCReader"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreNFC",
-        "printedName": "CoreNFC",
-        "declKind": "Import",
-        "moduleName": "NFCReader"
-      },
-      {
-        "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "NFCReader"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NFCReader",
-        "printedName": "NFCReader",
+        "kind": "Function",
+        "name": "readNFC",
+        "printedName": "readNFC()",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(logLevel:masterListURL:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NFCReader",
-                "printedName": "NFCReader.NFCReader",
-                "usr": "c:@M@NFCReader@objc(cs)NFCReader"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LogLevel",
-                "printedName": "NFCReader.LogLevel",
-                "hasDefaultArg": true,
-                "usr": "s:9NFCReader8LogLevelO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:9NFCReaderAAC8logLevel13masterListURLAbA03LogC0O_10Foundation0F0VSgtcfc",
-            "mangledName": "$s9NFCReaderAAC8logLevel13masterListURLAbA03LogC0O_10Foundation0F0VSgtcfc",
-            "moduleName": "NFCReader",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "setPrivateKey",
-            "printedName": "setPrivateKey(privateKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9NFCReaderAAC13setPrivateKey07privateD0ySS_tF",
-            "mangledName": "$s9NFCReaderAAC13setPrivateKey07privateD0ySS_tF",
-            "moduleName": "NFCReader",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "readPassport",
-            "printedName": "readPassport(passportNumber:dateOfBirth:dateOfExpiry:tags:skipSecureElements:skipCA:skipPACE:customDisplayMessage:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NFCPassportModel",
-                "printedName": "NFCReader.NFCPassportModel",
-                "usr": "s:9NFCReader16NFCPassportModelC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[NFCReader.DataGroupId]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DataGroupId",
-                    "printedName": "NFCReader.DataGroupId",
-                    "usr": "s:9NFCReader11DataGroupIdO"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((NFCReader.NFCViewDisplayMessage) -> Swift.String?)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(NFCReader.NFCViewDisplayMessage) -> Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NFCViewDisplayMessage",
-                        "printedName": "NFCReader.NFCViewDisplayMessage",
-                        "usr": "s:9NFCReader21NFCViewDisplayMessageO"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9NFCReaderAAC12readPassport14passportNumber11dateOfBirth0fG6Expiry4tags18skipSecureElements0K2CA0K4PACE20customDisplayMessageAA16NFCPassportModelCSS_10Foundation4DateVAPSayAA11DataGroupIdOGS3bSSSgAA07NFCViewqR0OcSgtYaKF",
-            "mangledName": "$s9NFCReaderAAC12readPassport14passportNumber11dateOfBirth0fG6Expiry4tags18skipSecureElements0K2CA0K4PACE20customDisplayMessageAA16NFCPassportModelCSS_10Foundation4DateVAPSayAA11DataGroupIdOGS3bSSSgAA07NFCViewqR0OcSgtYaKF",
-            "moduleName": "NFCReader",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "readPassportWithMRZKEY",
-            "printedName": "readPassportWithMRZKEY(mrzKey:tags:skipSecureElements:skipCA:skipPACE:customDisplayMessage:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NFCPassportModel",
-                "printedName": "NFCReader.NFCPassportModel",
-                "usr": "s:9NFCReader16NFCPassportModelC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[NFCReader.DataGroupId]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DataGroupId",
-                    "printedName": "NFCReader.DataGroupId",
-                    "usr": "s:9NFCReader11DataGroupIdO"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((NFCReader.NFCViewDisplayMessage) -> Swift.String?)?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(NFCReader.NFCViewDisplayMessage) -> Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NFCViewDisplayMessage",
-                        "printedName": "NFCReader.NFCViewDisplayMessage",
-                        "usr": "s:9NFCReader21NFCViewDisplayMessageO"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9NFCReaderAAC22readPassportWithMRZKEY6mrzKey4tags18skipSecureElements0I2CA0I4PACE20customDisplayMessageAA16NFCPassportModelCSS_SayAA11DataGroupIdOGS3bSSSgAA07NFCViewoP0OcSgtYaKF",
-            "mangledName": "$s9NFCReaderAAC22readPassportWithMRZKEY6mrzKey4tags18skipSecureElements0I2CA0I4PACE20customDisplayMessageAA16NFCPassportModelCSS_SayAA11DataGroupIdOGS3bSSSgAA07NFCViewoP0OcSgtYaKF",
-            "moduleName": "NFCReader",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "NFCReader",
-                "printedName": "NFCReader.NFCReader",
-                "usr": "c:@M@NFCReader@objc(cs)NFCReader"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@NFCReader@objc(cs)NFCReader(im)init",
-            "mangledName": "$s9NFCReaderAACABycfc",
-            "moduleName": "NFCReader",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "tagReaderSessionDidBecomeActive",
-            "printedName": "tagReaderSessionDidBecomeActive(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NFCTagReaderSession",
-                "printedName": "CoreNFC.NFCTagReaderSession",
-                "usr": "c:objc(cs)NFCTagReaderSession"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9NFCReaderAAC31tagReaderSessionDidBecomeActiveyySo06NFCTagcD0CF",
-            "mangledName": "$s9NFCReaderAAC31tagReaderSessionDidBecomeActiveyySo06NFCTagcD0CF",
-            "moduleName": "NFCReader",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "tagReaderSession",
-            "printedName": "tagReaderSession(_:didInvalidateWithError:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NFCTagReaderSession",
-                "printedName": "CoreNFC.NFCTagReaderSession",
-                "usr": "c:objc(cs)NFCTagReaderSession"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "Swift.Error",
-                "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9NFCReaderAAC16tagReaderSession_22didInvalidateWithErrorySo06NFCTagcD0C_s0H0_ptF",
-            "mangledName": "$s9NFCReaderAAC16tagReaderSession_22didInvalidateWithErrorySo06NFCTagcD0C_s0H0_ptF",
-            "moduleName": "NFCReader",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "tagReaderSession",
-            "printedName": "tagReaderSession(_:didDetect:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NFCTagReaderSession",
-                "printedName": "CoreNFC.NFCTagReaderSession",
-                "usr": "c:objc(cs)NFCTagReaderSession"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[CoreNFC.NFCTag]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NFCTag",
-                    "printedName": "CoreNFC.NFCTag",
-                    "usr": "s:7CoreNFC6NFCTagO"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9NFCReaderAAC16tagReaderSession_9didDetectySo06NFCTagcD0C_Say7CoreNFC0G0OGtF",
-            "mangledName": "$s9NFCReaderAAC16tagReaderSession_9didDetectySo06NFCTagcD0C_Say7CoreNFC0G0OGtF",
-            "moduleName": "NFCReader",
-            "isOpen": true,
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "updateReaderSessionMessage",
-            "printedName": "updateReaderSessionMessage(alertMessage:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NFCViewDisplayMessage",
-                "printedName": "NFCReader.NFCViewDisplayMessage",
-                "usr": "s:9NFCReader21NFCViewDisplayMessageO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:9NFCReaderAAC26updateReaderSessionMessage05alertE0yAA014NFCViewDisplayE0O_tF",
-            "mangledName": "$s9NFCReaderAAC26updateReaderSessionMessage05alertE0yAA014NFCViewDisplayE0O_tF",
-            "moduleName": "NFCReader",
-            "isOpen": true,
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
           }
         ],
-        "declKind": "Class",
-        "usr": "c:@M@NFCReader@objc(cs)NFCReader",
-        "mangledName": "$s9NFCReaderAAC",
+        "declKind": "Func",
+        "usr": "s:9NFCReader7readNFCyyF",
+        "mangledName": "$s9NFCReader7readNFCyyF",
         "moduleName": "NFCReader",
-        "isOpen": true,
-        "intro_iOS": "13",
         "declAttributes": [
-          "AccessControl",
-          "Available",
-          "ObjC"
+          "AccessControl"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "NFCTagReaderSessionDelegate",
-            "printedName": "NFCTagReaderSessionDelegate",
-            "usr": "s:7CoreNFC27NFCTagReaderSessionDelegateP",
-            "mangledName": "$s7CoreNFC27NFCTagReaderSessionDelegateP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
+        "funcSelfKind": "NonMutating"
       },
       {
         "kind": "Import",
@@ -32808,6 +32838,139 @@
       "offset": 526,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "Array",
+      "offset": 608,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 647,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 690,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 720,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "StringLiteral",
+      "offset": 933,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1293,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "StringLiteral",
+      "offset": 1336,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1369,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1607,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "Array",
+      "offset": 3506,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3538,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3560,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3585,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "Array",
+      "offset": 5758,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5790,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5812,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5837,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/PassportReader.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 14,
+      "value": "\"NFCReader.PassportReader\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/DataGroups\/DataGroupId.swift",
@@ -34747,139 +34910,6 @@
       "offset": 2483,
       "length": 1,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "Array",
-      "offset": 599,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 638,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 681,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 711,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 744,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "StringLiteral",
-      "offset": 924,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1284,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "StringLiteral",
-      "offset": 1327,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1360,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1598,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "Array",
-      "offset": 3497,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3529,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3551,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3576,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "Array",
-      "offset": 5749,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5781,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5803,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5828,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCReader.swift",
-      "kind": "StringLiteral",
-      "offset": 191,
-      "length": 9,
-      "value": "\"NFCReader.NFCReader\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReader\/NFCReader\/NFCPassportReader\/DataGroups\/COM.swift",

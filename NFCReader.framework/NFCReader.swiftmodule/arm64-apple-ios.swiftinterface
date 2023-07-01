@@ -217,6 +217,24 @@ public class SimpleASN1DumpParser {
 public class NotImplementedDG : NFCReader.DataGroup {
   @objc deinit
 }
+@objc @available(iOS 13, *)
+public class PassportReader : ObjectiveC.NSObject {
+  public init(logLevel: NFCReader.LogLevel = .info, masterListURL: Foundation.URL? = nil)
+  public func setPrivateKey(privateKey: Swift.String)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func readPassport(passportNumber: Swift.String, dateOfBirth: Foundation.Date, dateOfExpiry: Foundation.Date, tags: [NFCReader.DataGroupId] = [], skipSecureElements: Swift.Bool = true, skipCA: Swift.Bool = false, skipPACE: Swift.Bool = false, customDisplayMessage: ((NFCReader.NFCViewDisplayMessage) -> Swift.String?)? = nil) async throws -> NFCReader.NFCPassportModel
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func readPassportWithMRZKEY(mrzKey: Swift.String, tags: [NFCReader.DataGroupId] = [], skipSecureElements: Swift.Bool = true, skipCA: Swift.Bool = false, skipPACE: Swift.Bool = false, customDisplayMessage: ((NFCReader.NFCViewDisplayMessage) -> Swift.String?)? = nil) async throws -> NFCReader.NFCPassportModel
+  #endif
+  @objc deinit
+}
+@available(iOS 13, *)
+extension NFCReader.PassportReader : CoreNFC.NFCTagReaderSessionDelegate {
+  public func tagReaderSessionDidBecomeActive(_ session: CoreNFC.NFCTagReaderSession)
+  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: Swift.Error)
+  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didDetect tags: [CoreNFC.NFCTag])
+}
 @available(iOS 13, macOS 10.15, *)
 public enum DataGroupId : Swift.Int, Swift.CaseIterable {
   case COM
@@ -792,24 +810,7 @@ public func calcSHA256Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
 public func calcSHA512Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
 @available(iOS 13, macOS 10.15, *)
 public func calcSHA384Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
-@objc @available(iOS 13, *)
-public class NFCReader : ObjectiveC.NSObject {
-  public init(logLevel: NFCReader.LogLevel = .info, masterListURL: Foundation.URL? = nil)
-  public func setPrivateKey(privateKey: Swift.String)
-  #if compiler(>=5.3) && $AsyncAwait
-  public func readPassport(passportNumber: Swift.String, dateOfBirth: Foundation.Date, dateOfExpiry: Foundation.Date, tags: [NFCReader.DataGroupId] = [], skipSecureElements: Swift.Bool = true, skipCA: Swift.Bool = false, skipPACE: Swift.Bool = false, customDisplayMessage: ((NFCReader.NFCViewDisplayMessage) -> Swift.String?)? = nil) async throws -> NFCReader.NFCPassportModel
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
-  public func readPassportWithMRZKEY(mrzKey: Swift.String, tags: [NFCReader.DataGroupId] = [], skipSecureElements: Swift.Bool = true, skipCA: Swift.Bool = false, skipPACE: Swift.Bool = false, customDisplayMessage: ((NFCReader.NFCViewDisplayMessage) -> Swift.String?)? = nil) async throws -> NFCReader.NFCPassportModel
-  #endif
-  @objc deinit
-}
-@available(iOS 13, *)
-extension NFCReader.NFCReader : CoreNFC.NFCTagReaderSessionDelegate {
-  public func tagReaderSessionDidBecomeActive(_ session: CoreNFC.NFCTagReaderSession)
-  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didInvalidateWithError error: Swift.Error)
-  public func tagReaderSession(_ session: CoreNFC.NFCTagReaderSession, didDetect tags: [CoreNFC.NFCTag])
-}
+public func readNFC()
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class COM : NFCReader.DataGroup {
   public var version: Swift.String {
