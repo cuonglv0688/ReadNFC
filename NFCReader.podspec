@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NFCReader"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "cuonglv" => "cuonglv0688@gmail.com" }
   spec.source        = { :git => "https://github.com/cuonglv0688/ReadNFC.git", :tag => "#{spec.version}" }
-  spec.vendored_frameworks = "NFCReader.framework"
+  spec.vendored_frameworks = "NFCReader.xcframework"
   spec.platform = :ios
   spec.swift_version = "5.0"
   spec.ios.deployment_target  = '12.0'
@@ -20,8 +20,9 @@ Pod::Spec.new do |spec|
   spec.dependency "Alamofire", '5.7.1'
   spec.xcconfig          = { 'OTHER_LDFLAGS' => '-weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit' }
 
-  spec.user_target_xcconfig = {
-      'SWIFT_INCLUDE_PATHS' => '"\$(PODS_ROOT)/NFCReader/NFCReader.framework"'
-    }
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 end
