@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NFCReader"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target  = '12.0'
   spec.dependency "OpenSSL-Universal", '1.1.1900'
   spec.dependency "Alamofire", '5.7.1'
+  spec.dependency "QKMRZScanner", '3.0.0'
   spec.xcconfig          = { 'OTHER_LDFLAGS' => '-weak_framework CryptoKit -weak_framework CoreNFC -weak_framework CryptoTokenKit' }
 
   spec.pod_target_xcconfig = {

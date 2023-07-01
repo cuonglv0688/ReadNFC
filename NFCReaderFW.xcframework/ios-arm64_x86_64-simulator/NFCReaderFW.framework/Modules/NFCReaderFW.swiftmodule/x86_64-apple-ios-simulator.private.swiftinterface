@@ -271,6 +271,7 @@ extension NFCReaderFW.NFCViewDisplayMessage {
   public var description: Swift.String {
     get
   }
+  public func handleProgress(percentualProgress: Swift.Int) -> Swift.String
 }
 @available(iOS 13, *)
 public struct ResponseAPDU {

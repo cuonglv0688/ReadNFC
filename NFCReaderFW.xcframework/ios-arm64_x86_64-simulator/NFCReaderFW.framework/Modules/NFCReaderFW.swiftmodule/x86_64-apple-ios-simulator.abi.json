@@ -6149,6 +6149,34 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "handleProgress",
+            "printedName": "handleProgress(percentualProgress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NFCReaderFW21NFCViewDisplayMessageO14handleProgress010percentualG0SSSi_tF",
+            "mangledName": "$s11NFCReaderFW21NFCViewDisplayMessageO14handleProgress010percentualG0SSSi_tF",
+            "moduleName": "NFCReaderFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
