@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		kW1TCRSLBQDR6kaxDmjN4fzOLPg=
+		rhHkJGGAWXBBiUNMLD7iFQZXpWM=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		nwZOI7hQN5nsFYbInCqBu7s+7LU=
+		CorXPF3z7IT/XwffJw6JFe5ouis=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sJD11N1YXRMtj85dw7m0KFo7hrllbqGX9QLDdOWOVnA=
+			7i2SJ7p2+ldP67cgEUynAG8PlgshTIh0iqZ/k2QL/nY=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/XDjzshUZVSobDX4bAl6nWYe+UnbnQ0u+Z8Ep8fujbs=
+			gVzMOa3wRugPuI/RdnbwigfXMvSIHyJf4O88Rw6YfBg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

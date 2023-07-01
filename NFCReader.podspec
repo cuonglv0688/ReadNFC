@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NFCReader"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "cuonglv" => "cuonglv0688@gmail.com" }
   spec.source        = { :git => "https://github.com/cuonglv0688/ReadNFC.git", :tag => "#{spec.version}" }
-  spec.vendored_frameworks = "NFCReader.xcframework"
+  spec.vendored_frameworks = 'NFCReaderFW.xcframework'
   spec.platform = :ios
   spec.swift_version = "5.0"
   spec.ios.deployment_target  = '12.0'
