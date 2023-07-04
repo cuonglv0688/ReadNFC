@@ -260,10 +260,10 @@ public class DataGroup7 : NFCReaderFW.DataGroup {
 }
 @available(iOS 13, macOS 10.15, *)
 public enum NFCViewDisplayMessage {
-  case requestPresentPassport
-  case authenticatingWithPassport(Swift.Int)
+  case requestPresentCCCD
+  case authenticatingWithCCCD(Swift.Int)
   case readingDataGroupProgress(NFCReaderFW.DataGroupId, Swift.Int)
-  case error(NFCReaderFW.NFCPassportReaderError)
+  case error(NFCReaderFW.NFCCCCDReaderError)
   case successfulRead
 }
 @available(iOS 13, macOS 10.15, *)
@@ -394,18 +394,18 @@ public enum LogLevel : Swift.Int, Swift.CaseIterable {
   public class func clearStoredLogs()
   @objc deinit
 }
-public enum PassportAuthenticationStatus {
+public enum CCCDAuthenticationStatus {
   case notDone
   case success
   case failed
-  public static func == (a: NFCReaderFW.PassportAuthenticationStatus, b: NFCReaderFW.PassportAuthenticationStatus) -> Swift.Bool
+  public static func == (a: NFCReaderFW.CCCDAuthenticationStatus, b: NFCReaderFW.CCCDAuthenticationStatus) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
 }
 @available(iOS 13, macOS 10.15, *)
-public class NFCPassportModel {
+public class NFCCCDModel {
   public var documentType: Swift.String {
     get
   }
@@ -514,13 +514,13 @@ public class NFCPassportModel {
   public var cardAccess: NFCReaderFW.CardAccess? {
     get
   }
-  public var BACStatus: NFCReaderFW.PassportAuthenticationStatus {
+  public var BACStatus: NFCReaderFW.CCCDAuthenticationStatus {
     get
   }
-  public var PACEStatus: NFCReaderFW.PassportAuthenticationStatus {
+  public var PACEStatus: NFCReaderFW.CCCDAuthenticationStatus {
     get
   }
-  public var chipAuthenticationStatus: NFCReaderFW.PassportAuthenticationStatus {
+  public var chipAuthenticationStatus: NFCReaderFW.CCCDAuthenticationStatus {
     get
   }
   public var passportCorrectlySigned: Swift.Bool {
@@ -637,12 +637,12 @@ public class OpenSSLUtils {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @available(iOS 13, *)
 public class NFCReader : ObjectiveC.NSObject {
   public static let shared: NFCReaderFW.NFCReader
-  public func setPrivateKey(privateKey: Swift.String)
+  public func setPrivateKey(privateKey: Swift.String, apiKey: Swift.String)
   #if compiler(>=5.3) && $AsyncAwait
-  public func readPassport(passportNumber: Swift.String, dateOfBirth: Foundation.Date, dateOfExpiry: Foundation.Date, tags: [NFCReaderFW.DataGroupId] = [], skipSecureElements: Swift.Bool = true, skipCA: Swift.Bool = false, skipPACE: Swift.Bool = false, customDisplayMessage: ((NFCReaderFW.NFCViewDisplayMessage) -> Swift.String?)? = nil) async throws -> NFCReaderFW.NFCPassportModel
+  public func readCCCD(cccdNumber: Swift.String, dateOfBirth: Foundation.Date, dateOfExpiry: Foundation.Date, tags: [NFCReaderFW.DataGroupId] = [], skipSecureElements: Swift.Bool = true, skipCA: Swift.Bool = false, skipPACE: Swift.Bool = false, customDisplayMessage: ((NFCReaderFW.NFCViewDisplayMessage) -> Swift.String?)? = nil) async throws -> NFCReaderFW.NFCCCDModel
   #endif
   #if compiler(>=5.3) && $AsyncAwait
-  public func readPassportWithMRZKEY(mrzKey: Swift.String, tags: [NFCReaderFW.DataGroupId] = [], skipSecureElements: Swift.Bool = true, skipCA: Swift.Bool = false, skipPACE: Swift.Bool = false, customDisplayMessage: ((NFCReaderFW.NFCViewDisplayMessage) -> Swift.String?)? = nil) async throws -> NFCReaderFW.NFCPassportModel
+  public func readCCCDWithMRZKEY(mrzKey: Swift.String, tags: [NFCReaderFW.DataGroupId] = [], skipSecureElements: Swift.Bool = true, skipCA: Swift.Bool = false, skipPACE: Swift.Bool = false, customDisplayMessage: ((NFCReaderFW.NFCViewDisplayMessage) -> Swift.String?)? = nil) async throws -> NFCReaderFW.NFCCCDModel
   #endif
   @objc deinit
 }
@@ -721,7 +721,7 @@ public class ChipAuthenticationPublicKeyInfo : NFCReaderFW.SecurityInfo {
   @objc deinit
 }
 @available(iOS 13, macOS 10.15, *)
-public enum NFCPassportReaderError : Swift.Error {
+public enum NFCCCCDReaderError : Swift.Error {
   case ResponseError(Swift.String, Swift.UInt8, Swift.UInt8)
   case InvalidResponse
   case UnexpectedError
@@ -754,7 +754,7 @@ public enum NFCPassportReaderError : Swift.Error {
   case PrivateKeyInvalidate
 }
 @available(iOS 13, macOS 10.15, *)
-extension NFCReaderFW.NFCPassportReaderError : Foundation.LocalizedError {
+extension NFCReaderFW.NFCCCCDReaderError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
     get
   }
@@ -855,8 +855,8 @@ extension NFCReaderFW.PACEMappingType : Swift.Hashable {}
 extension NFCReaderFW.LogLevel : Swift.Equatable {}
 extension NFCReaderFW.LogLevel : Swift.Hashable {}
 extension NFCReaderFW.LogLevel : Swift.RawRepresentable {}
-extension NFCReaderFW.PassportAuthenticationStatus : Swift.Equatable {}
-extension NFCReaderFW.PassportAuthenticationStatus : Swift.Hashable {}
+extension NFCReaderFW.CCCDAuthenticationStatus : Swift.Equatable {}
+extension NFCReaderFW.CCCDAuthenticationStatus : Swift.Hashable {}
 @available(iOS 13, macOS 10.15, *)
 extension NFCReaderFW.DocTypeEnum : Swift.Equatable {}
 @available(iOS 13, macOS 10.15, *)

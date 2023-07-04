@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NFCReader"
-  spec.version      = "1.0.9"
+  spec.version      = "1.0.10"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
