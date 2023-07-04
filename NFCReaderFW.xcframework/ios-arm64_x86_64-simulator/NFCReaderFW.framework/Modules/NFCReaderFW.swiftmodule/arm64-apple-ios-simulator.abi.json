@@ -10487,8 +10487,8 @@
           },
           {
             "kind": "Var",
-            "name": "passportMRZ",
-            "printedName": "passportMRZ",
+            "name": "cccdMRZ",
+            "printedName": "cccdMRZ",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10498,8 +10498,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11NFCReaderFW11NFCCCDModelC11passportMRZSSvp",
-            "mangledName": "$s11NFCReaderFW11NFCCCDModelC11passportMRZSSvp",
+            "usr": "s:11NFCReaderFW11NFCCCDModelC7cccdMRZSSvp",
+            "mangledName": "$s11NFCReaderFW11NFCCCDModelC7cccdMRZSSvp",
             "moduleName": "NFCReaderFW",
             "declAttributes": [
               "Lazy",
@@ -10520,8 +10520,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11NFCReaderFW11NFCCCDModelC11passportMRZSSvg",
-                "mangledName": "$s11NFCReaderFW11NFCCCDModelC11passportMRZSSvg",
+                "usr": "s:11NFCReaderFW11NFCCCDModelC7cccdMRZSSvg",
+                "mangledName": "$s11NFCReaderFW11NFCCCDModelC7cccdMRZSSvg",
                 "moduleName": "NFCReaderFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -11394,8 +11394,8 @@
           },
           {
             "kind": "Var",
-            "name": "passportCorrectlySigned",
-            "printedName": "passportCorrectlySigned",
+            "name": "cccdCorrectlySigned",
+            "printedName": "cccdCorrectlySigned",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11405,8 +11405,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11NFCReaderFW11NFCCCDModelC23passportCorrectlySignedSbvp",
-            "mangledName": "$s11NFCReaderFW11NFCCCDModelC23passportCorrectlySignedSbvp",
+            "usr": "s:11NFCReaderFW11NFCCCDModelC19cccdCorrectlySignedSbvp",
+            "mangledName": "$s11NFCReaderFW11NFCCCDModelC19cccdCorrectlySignedSbvp",
             "moduleName": "NFCReaderFW",
             "declAttributes": [
               "HasInitialValue",
@@ -11429,8 +11429,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11NFCReaderFW11NFCCCDModelC23passportCorrectlySignedSbvg",
-                "mangledName": "$s11NFCReaderFW11NFCCCDModelC23passportCorrectlySignedSbvg",
+                "usr": "s:11NFCReaderFW11NFCCCDModelC19cccdCorrectlySignedSbvg",
+                "mangledName": "$s11NFCReaderFW11NFCCCDModelC19cccdCorrectlySignedSbvg",
                 "moduleName": "NFCReaderFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -11484,8 +11484,8 @@
           },
           {
             "kind": "Var",
-            "name": "passportDataNotTampered",
-            "printedName": "passportDataNotTampered",
+            "name": "cccdDataNotTampered",
+            "printedName": "cccdDataNotTampered",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11495,8 +11495,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11NFCReaderFW11NFCCCDModelC23passportDataNotTamperedSbvp",
-            "mangledName": "$s11NFCReaderFW11NFCCCDModelC23passportDataNotTamperedSbvp",
+            "usr": "s:11NFCReaderFW11NFCCCDModelC19cccdDataNotTamperedSbvp",
+            "mangledName": "$s11NFCReaderFW11NFCCCDModelC19cccdDataNotTamperedSbvp",
             "moduleName": "NFCReaderFW",
             "declAttributes": [
               "HasInitialValue",
@@ -11519,8 +11519,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11NFCReaderFW11NFCCCDModelC23passportDataNotTamperedSbvg",
-                "mangledName": "$s11NFCReaderFW11NFCCCDModelC23passportDataNotTamperedSbvg",
+                "usr": "s:11NFCReaderFW11NFCCCDModelC19cccdDataNotTamperedSbvg",
+                "mangledName": "$s11NFCReaderFW11NFCCCDModelC19cccdDataNotTamperedSbvg",
                 "moduleName": "NFCReaderFW",
                 "implicit": true,
                 "accessorKind": "get"
@@ -11837,8 +11837,8 @@
           },
           {
             "kind": "Var",
-            "name": "passportImage",
-            "printedName": "passportImage",
+            "name": "image",
+            "printedName": "image",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -11856,8 +11856,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11NFCReaderFW11NFCCCDModelC13passportImageSo7UIImageCSgvp",
-            "mangledName": "$s11NFCReaderFW11NFCCCDModelC13passportImageSo7UIImageCSgvp",
+            "usr": "s:11NFCReaderFW11NFCCCDModelC5imageSo7UIImageCSgvp",
+            "mangledName": "$s11NFCReaderFW11NFCCCDModelC5imageSo7UIImageCSgvp",
             "moduleName": "NFCReaderFW",
             "declAttributes": [
               "AccessControl"
@@ -11884,8 +11884,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11NFCReaderFW11NFCCCDModelC13passportImageSo7UIImageCSgvg",
-                "mangledName": "$s11NFCReaderFW11NFCCCDModelC13passportImageSo7UIImageCSgvg",
+                "usr": "s:11NFCReaderFW11NFCCCDModelC5imageSo7UIImageCSgvg",
+                "mangledName": "$s11NFCReaderFW11NFCCCDModelC5imageSo7UIImageCSgvg",
                 "moduleName": "NFCReaderFW",
                 "accessorKind": "get"
               }
@@ -12118,8 +12118,8 @@
           },
           {
             "kind": "Function",
-            "name": "dumpPassportData",
-            "printedName": "dumpPassportData(selectedDataGroups:includeActiveAuthenticationData:)",
+            "name": "dumpCCCDData",
+            "printedName": "dumpCCCDData(selectedDataGroups:includeActiveAuthenticationData:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12164,8 +12164,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NFCReaderFW11NFCCCDModelC16dumpPassportData08selectedF6Groups027includeActiveAuthenticationF0SDyS2SGSayAA0F7GroupIdOG_SbtF",
-            "mangledName": "$s11NFCReaderFW11NFCCCDModelC16dumpPassportData08selectedF6Groups027includeActiveAuthenticationF0SDyS2SGSayAA0F7GroupIdOG_SbtF",
+            "usr": "s:11NFCReaderFW11NFCCCDModelC12dumpCCCDData18selectedDataGroups027includeActiveAuthenticationG0SDyS2SGSayAA0G7GroupIdOG_SbtF",
+            "mangledName": "$s11NFCReaderFW11NFCCCDModelC12dumpCCCDData18selectedDataGroups027includeActiveAuthenticationG0SDyS2SGSayAA0G7GroupIdOG_SbtF",
             "moduleName": "NFCReaderFW",
             "declAttributes": [
               "AccessControl",
@@ -12224,8 +12224,8 @@
           },
           {
             "kind": "Function",
-            "name": "verifyPassport",
-            "printedName": "verifyPassport(masterListURL:useCMSVerification:)",
+            "name": "verifyCCCD",
+            "printedName": "verifyCCCD(masterListURL:useCMSVerification:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12255,8 +12255,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11NFCReaderFW11NFCCCDModelC14verifyPassport13masterListURL18useCMSVerificationy10Foundation0H0VSg_SbtF",
-            "mangledName": "$s11NFCReaderFW11NFCCCDModelC14verifyPassport13masterListURL18useCMSVerificationy10Foundation0H0VSg_SbtF",
+            "usr": "s:11NFCReaderFW11NFCCCDModelC10verifyCCCD13masterListURL18useCMSVerificationy10Foundation0H0VSg_SbtF",
+            "mangledName": "$s11NFCReaderFW11NFCCCDModelC10verifyCCCD13masterListURL18useCMSVerificationy10Foundation0H0VSg_SbtF",
             "moduleName": "NFCReaderFW",
             "declAttributes": [
               "AccessControl",
@@ -20429,161 +20429,161 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
-      "offset": 3186,
+      "offset": 3182,
       "length": 6,
       "value": "\"5F1F\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
-      "offset": 3197,
+      "offset": 3193,
       "length": 11,
       "value": "\"NOT FOUND\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
-      "offset": 3435,
+      "offset": 3431,
       "length": 4,
       "value": "\"<<\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
-      "offset": 3478,
+      "offset": 3474,
       "length": 4,
       "value": "\"5B\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
-      "offset": 3487,
+      "offset": 3483,
       "length": 3,
       "value": "\"?\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
-      "offset": 3516,
+      "offset": 3512,
       "length": 4,
       "value": "\"<<\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
-      "offset": 4567,
+      "offset": 4563,
       "length": 4,
       "value": "\"53\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
-      "offset": 4576,
+      "offset": 4572,
       "length": 3,
       "value": "\"?\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
-      "offset": 4606,
+      "offset": 4602,
       "length": 3,
       "value": "\"<\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
-      "offset": 4617,
+      "offset": 4613,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "StringLiteral",
-      "offset": 5099,
+      "offset": 5095,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "Array",
-      "offset": 5289,
+      "offset": 5285,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "Dictionary",
-      "offset": 5512,
+      "offset": 5508,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 5957,
+      "offset": 5949,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6035,
+      "offset": 6027,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6102,
+      "offset": 6090,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 6172,
+      "offset": 6160,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "Array",
-      "offset": 6248,
+      "offset": 6236,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "Array",
-      "offset": 6321,
+      "offset": 6309,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "Array",
-      "offset": 6383,
+      "offset": 6371,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "Dictionary",
-      "offset": 7947,
+      "offset": 7927,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 10273,
+      "offset": 10249,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/NFCPassportModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 12801,
+      "offset": 12773,
       "length": 5,
       "value": "false"
     },

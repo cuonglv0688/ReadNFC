@@ -475,7 +475,7 @@ public class NFCCCDModel {
   public var firstName: Swift.String {
     get
   }
-  public var passportMRZ: Swift.String {
+  public var cccdMRZ: Swift.String {
     get
   }
   public var placeOfBirth: Swift.String? {
@@ -523,13 +523,13 @@ public class NFCCCDModel {
   public var chipAuthenticationStatus: NFCReaderFW.CCCDAuthenticationStatus {
     get
   }
-  public var passportCorrectlySigned: Swift.Bool {
+  public var cccdCorrectlySigned: Swift.Bool {
     get
   }
   public var documentSigningCertificateVerified: Swift.Bool {
     get
   }
-  public var passportDataNotTampered: Swift.Bool {
+  public var cccdDataNotTampered: Swift.Bool {
     get
   }
   public var activeAuthenticationPassed: Swift.Bool {
@@ -550,7 +550,7 @@ public class NFCCCDModel {
   public var isChipAuthenticationSupported: Swift.Bool {
     get
   }
-  public var passportImage: UIKit.UIImage? {
+  public var image: UIKit.UIImage? {
     get
   }
   public var signatureImage: UIKit.UIImage? {
@@ -563,9 +563,9 @@ public class NFCCCDModel {
   public init(from dump: [Swift.String : Swift.String])
   public func addDataGroup(_ id: NFCReaderFW.DataGroupId, dataGroup: NFCReaderFW.DataGroup)
   public func getDataGroup(_ id: NFCReaderFW.DataGroupId) -> NFCReaderFW.DataGroup?
-  public func dumpPassportData(selectedDataGroups: [NFCReaderFW.DataGroupId], includeActiveAuthenticationData: Swift.Bool = false) -> [Swift.String : Swift.String]
+  public func dumpCCCDData(selectedDataGroups: [NFCReaderFW.DataGroupId], includeActiveAuthenticationData: Swift.Bool = false) -> [Swift.String : Swift.String]
   public func getHashesForDatagroups(hashAlgorythm: Swift.String) -> [NFCReaderFW.DataGroupId : [Swift.UInt8]]
-  public func verifyPassport(masterListURL: Foundation.URL?, useCMSVerification: Swift.Bool = false)
+  public func verifyCCCD(masterListURL: Foundation.URL?, useCMSVerification: Swift.Bool = false)
   public func verifyActiveAuthentication(challenge: [Swift.UInt8], signature: [Swift.UInt8])
   @objc deinit
 }
