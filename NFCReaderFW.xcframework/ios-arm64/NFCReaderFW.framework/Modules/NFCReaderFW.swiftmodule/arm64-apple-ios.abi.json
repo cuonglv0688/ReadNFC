@@ -14117,13 +14117,6 @@
         "moduleName": "NFCReaderFW"
       },
       {
-        "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
-        "declKind": "Import",
-        "moduleName": "NFCReaderFW"
-      },
-      {
         "kind": "TypeDecl",
         "name": "NFCReader",
         "printedName": "NFCReader",
@@ -20625,133 +20618,133 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "Array",
-      "offset": 747,
+      "offset": 730,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 786,
+      "offset": 769,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 829,
+      "offset": 812,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 859,
+      "offset": 842,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 892,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
-      "kind": "StringLiteral",
-      "offset": 1076,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1427,
+      "offset": 875,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "StringLiteral",
-      "offset": 1466,
+      "offset": 1059,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1410,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1449,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "StringLiteral",
-      "offset": 1506,
+      "offset": 1489,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 1539,
+      "offset": 1522,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 1777,
+      "offset": 1760,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "Array",
-      "offset": 3826,
+      "offset": 3809,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 3858,
+      "offset": 3841,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 3880,
+      "offset": 3863,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 3905,
+      "offset": 3888,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "Array",
-      "offset": 6096,
+      "offset": 6079,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 6128,
+      "offset": 6111,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 6150,
+      "offset": 6133,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 6175,
+      "offset": 6158,
       "length": 5,
       "value": "false"
     },
