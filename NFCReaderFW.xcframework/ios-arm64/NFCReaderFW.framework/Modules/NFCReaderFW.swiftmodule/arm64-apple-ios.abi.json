@@ -13932,6 +13932,45 @@
           },
           {
             "kind": "Function",
+            "name": "getX509CertificatesFromPKCS7",
+            "printedName": "getX509CertificatesFromPKCS7(pkcs7Der:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[NFCReaderFW.X509Wrapper]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "X509Wrapper",
+                    "printedName": "NFCReaderFW.X509Wrapper",
+                    "usr": "s:11NFCReaderFW11X509WrapperC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NFCReaderFW12OpenSSLUtilsC28getX509CertificatesFromPKCS78pkcs7DerSayAA0F7WrapperCG10Foundation4DataV_tKFZ",
+            "mangledName": "$s11NFCReaderFW12OpenSSLUtilsC28getX509CertificatesFromPKCS78pkcs7DerSayAA0F7WrapperCG10Foundation4DataV_tKFZ",
+            "moduleName": "NFCReaderFW",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getPublicKeyData",
             "printedName": "getPublicKeyData(from:)",
             "children": [
@@ -20611,7 +20650,7 @@
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCPassportReader\/OpenSSLUtils.swift",
       "kind": "StringLiteral",
-      "offset": 17203,
+      "offset": 17210,
       "length": 2,
       "value": "\"\""
     },

@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wbU/yiBOrkpI67lNUdDXOqpFFDU=
+		8zFGseP7yIEdKLZmJ3/XaLmQkr8=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UdB59wy7DlSEp1/owQjwMhxBFMk=
+		WTOQADmH/1eFH+/4gJkcP8ANquU=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		rph6XYXzbGy8RC/vcyN4YwwvAE8=
+		+kXE9SV+yTUFHRzfggZ2vRMlYes=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UdB59wy7DlSEp1/owQjwMhxBFMk=
+		WTOQADmH/1eFH+/4gJkcP8ANquU=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		WJzgI2DGGwYdCAlEJDoVdQ2G1Y0=
+		No/ZKY/5G/jMtuUUZwKsYJvY2K4=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wbU/yiBOrkpI67lNUdDXOqpFFDU=
+		8zFGseP7yIEdKLZmJ3/XaLmQkr8=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hYacy7ESJs6bHFoCSazUfT7AKDU=
+		O6uTg9BUEH/aCZPp4jqYD3divWE=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		y9gOj3KBsHABDKKArvcQl2Ogtks=
+		nmNTTaRS7VKVwbSRHCatcXtMEv8=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hYacy7ESJs6bHFoCSazUfT7AKDU=
+		O6uTg9BUEH/aCZPp4jqYD3divWE=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oHX4mBcn8uB8PXmQWWt5fdYE9GQ=
+		+bdqPVbDgZuNJujTl+XmcFT58to=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C4f4SX2e/wGIf4W4O0AN8XTXoIrs0oMoGAHebSM78PU=
+			Ka2XYVTOq2eDcPuW7VTWtynlLD3MNY7E205ntbSYYAA=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			taKv7/jzNtnLe/pwYELdLkRcrWW9p/1O2A5i0jOoxQU=
+			bqJDuQLk0TlkFIx9VvjXBbkxUqs51hB46p6/vge/goo=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cTSgjl91N0wOYlQ4WnU8dcTQ2baXvOt91Wg7dirY4kQ=
+			E8NYJ9KKOjVh1Ay2jcKkGVXvy/d6Wu3FlTb5mpEZpEc=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			taKv7/jzNtnLe/pwYELdLkRcrWW9p/1O2A5i0jOoxQU=
+			bqJDuQLk0TlkFIx9VvjXBbkxUqs51hB46p6/vge/goo=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0gmczagEf3fi/VASEiqYA9w2G34jT5NOk/uH85fATaM=
+			W3cf5EnAAn8NXs7/Rp5sJgC54ddxZ+wev8AFOgZJvm8=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C4f4SX2e/wGIf4W4O0AN8XTXoIrs0oMoGAHebSM78PU=
+			Ka2XYVTOq2eDcPuW7VTWtynlLD3MNY7E205ntbSYYAA=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			loIEt7bj7o6ty9IrsBh1WwGwBNinnG8m2nT3zo2adGU=
+			CN4IT4gWwMYg9zWjdB3Q4fiYT8xJj7eLdNRhBDBQbeY=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dEp+5Gbg0TV+nd95ijlvtbWAqDEMUPQ2nXgEE5AGZog=
+			/3mDtNw93Zn2HhKdIA8eFhpO7fD/gBZLq4Da2UMCMTI=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			loIEt7bj7o6ty9IrsBh1WwGwBNinnG8m2nT3zo2adGU=
+			CN4IT4gWwMYg9zWjdB3Q4fiYT8xJj7eLdNRhBDBQbeY=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qvaV80BtmUGMOsqY6hYsG42GsaQUdNdOeo2B+DdnxnY=
+			OhT3cKPM64d8Eh+2RhlMnaXw/tCSEL+pHGrtWyOD/lY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

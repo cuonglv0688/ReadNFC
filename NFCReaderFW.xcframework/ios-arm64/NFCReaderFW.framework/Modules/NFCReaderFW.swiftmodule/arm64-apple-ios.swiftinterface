@@ -626,6 +626,7 @@ public func calcSHA384Hash(_ data: [Swift.UInt8]) -> [Swift.UInt8]
 @_hasMissingDesignatedInitializers @available(iOS 13, macOS 10.15, *)
 public class OpenSSLUtils {
   public static func getOpenSSLError() -> Swift.String
+  public static func getX509CertificatesFromPKCS7(pkcs7Der: Foundation.Data) throws -> [NFCReaderFW.X509Wrapper]
   @available(iOS 13, macOS 10.15, *)
   public static func getPublicKeyData(from key: Swift.OpaquePointer) -> [Swift.UInt8]?
   @available(iOS 13, macOS 10.15, *)
