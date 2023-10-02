@@ -638,6 +638,7 @@ public class OpenSSLUtils {
 public class NFCReader : ObjectiveC.NSObject {
   public static let shared: NFCReaderFW.NFCReader
   public func setPrivateKey(privateKey: Swift.String, apiKey: Swift.String)
+  public func getNeedAuthenticate() -> Swift.Bool
   public func cardVerify(cardInfo: NFCReaderFW.NFCCCDModel, verify: @escaping ((_ isSuccess: Swift.Bool) -> Swift.Void)) throws
   #if compiler(>=5.3) && $AsyncAwait
   public func readCCCD(cccdNumber: Swift.String, dateOfBirth: Foundation.Date, dateOfExpiry: Foundation.Date, tags: [NFCReaderFW.DataGroupId] = [], skipSecureElements: Swift.Bool = true, skipCA: Swift.Bool = false, skipPACE: Swift.Bool = false, customDisplayMessage: ((NFCReaderFW.NFCViewDisplayMessage) -> Swift.String?)? = nil) async throws -> NFCReaderFW.NFCCCDModel
