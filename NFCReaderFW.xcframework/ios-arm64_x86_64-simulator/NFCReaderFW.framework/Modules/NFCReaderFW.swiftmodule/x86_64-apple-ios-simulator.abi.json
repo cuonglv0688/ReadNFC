@@ -14245,6 +14245,51 @@
           },
           {
             "kind": "Function",
+            "name": "cardVerify",
+            "printedName": "cardVerify(cardInfo:verify:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NFCCCDModel",
+                "printedName": "NFCReaderFW.NFCCCDModel",
+                "usr": "s:11NFCReaderFW11NFCCCDModelC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11NFCReaderFW0A0C10cardVerify0C4Info6verifyyAA11NFCCCDModelC_ySbctKF",
+            "mangledName": "$s11NFCReaderFW0A0C10cardVerify0C4Info6verifyyAA11NFCCCDModelC_ySbctKF",
+            "moduleName": "NFCReaderFW",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "readCCCD",
             "printedName": "readCCCD(cccdNumber:dateOfBirth:dateOfExpiry:tags:skipSecureElements:skipCA:skipPACE:customDisplayMessage:)",
             "children": [
@@ -17050,6 +17095,80 @@
             "declKind": "EnumElement",
             "usr": "s:11NFCReaderFW18NFCCCCDReaderErrorO20PrivateKeyInvalidateyA2CmF",
             "mangledName": "$s11NFCReaderFW18NFCCCCDReaderErrorO20PrivateKeyInvalidateyA2CmF",
+            "moduleName": "NFCReaderFW"
+          },
+          {
+            "kind": "Var",
+            "name": "LicenseNotActived",
+            "printedName": "LicenseNotActived",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCReaderFW.NFCCCCDReaderError.Type) -> NFCReaderFW.NFCCCCDReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCCCCDReaderError",
+                    "printedName": "NFCReaderFW.NFCCCCDReaderError",
+                    "usr": "s:11NFCReaderFW18NFCCCCDReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCReaderFW.NFCCCCDReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCCCCDReaderError",
+                        "printedName": "NFCReaderFW.NFCCCCDReaderError",
+                        "usr": "s:11NFCReaderFW18NFCCCCDReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NFCReaderFW18NFCCCCDReaderErrorO17LicenseNotActivedyA2CmF",
+            "mangledName": "$s11NFCReaderFW18NFCCCCDReaderErrorO17LicenseNotActivedyA2CmF",
+            "moduleName": "NFCReaderFW"
+          },
+          {
+            "kind": "Var",
+            "name": "VerifyFailed",
+            "printedName": "VerifyFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(NFCReaderFW.NFCCCCDReaderError.Type) -> NFCReaderFW.NFCCCCDReaderError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NFCCCCDReaderError",
+                    "printedName": "NFCReaderFW.NFCCCCDReaderError",
+                    "usr": "s:11NFCReaderFW18NFCCCCDReaderErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "NFCReaderFW.NFCCCCDReaderError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NFCCCCDReaderError",
+                        "printedName": "NFCReaderFW.NFCCCCDReaderError",
+                        "usr": "s:11NFCReaderFW18NFCCCCDReaderErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11NFCReaderFW18NFCCCCDReaderErrorO12VerifyFailedyA2CmF",
+            "mangledName": "$s11NFCReaderFW18NFCCCCDReaderErrorO12VerifyFailedyA2CmF",
             "moduleName": "NFCReaderFW"
           },
           {
@@ -20656,134 +20775,169 @@
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
+      "kind": "StringLiteral",
+      "offset": 157,
+      "length": 45,
+      "value": "\"https:\/\/api.smartekyc.com\/vvnai\/nfc\/license\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 53,
+      "value": "\"https:\/\/api.smartekyc.com\/ekyc-nfc\/ceca\/card_verify\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 34,
+      "value": "\"DNqbBhamEpgAdoIGmAESqQYSqYhKGyaH\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 3,
+      "value": "\"3\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "Array",
-      "offset": 730,
+      "offset": 1013,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 769,
+      "offset": 1052,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 812,
+      "offset": 1095,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 842,
+      "offset": 1125,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 875,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
-      "kind": "StringLiteral",
-      "offset": 1059,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1410,
+      "offset": 1158,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "StringLiteral",
-      "offset": 1449,
+      "offset": 1342,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1693,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
+      "kind": "StringLiteral",
+      "offset": 1732,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "StringLiteral",
-      "offset": 1489,
+      "offset": 1772,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 1522,
+      "offset": 1805,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 1760,
+      "offset": 1846,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2084,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "Array",
-      "offset": 3877,
+      "offset": 7734,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 3909,
+      "offset": 7766,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 3931,
+      "offset": 7788,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 3956,
+      "offset": 7813,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "Array",
-      "offset": 6147,
+      "offset": 10001,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 6179,
+      "offset": 10033,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 6201,
+      "offset": 10055,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Desktop\/Data\/Work\/NFCReaderFW\/NFCReaderFW\/NFCReaderFW.swift",
       "kind": "BooleanLiteral",
-      "offset": 6226,
+      "offset": 10080,
       "length": 5,
       "value": "false"
     },
