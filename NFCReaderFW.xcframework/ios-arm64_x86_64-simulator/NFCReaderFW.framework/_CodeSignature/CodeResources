@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		4FEV3ZGb+DE1G3ArnH8Emtp84es=
+		6tE8I5ORcGmv3n4iSeUErcjG9RU=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bWSiHpkmGKHtyrdIq2iDH5WNF/o=
+		pIBGIkWN+6nptS/2p6VXEqC3vHg=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bWSiHpkmGKHtyrdIq2iDH5WNF/o=
+		pIBGIkWN+6nptS/2p6VXEqC3vHg=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bj8FsQB7jISnjkDyDoHi0arpX8I=
+		idZ4vk+LZmqbcwN8Boxa7SbfSHk=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		4FEV3ZGb+DE1G3ArnH8Emtp84es=
+		6tE8I5ORcGmv3n4iSeUErcjG9RU=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6+Yfr3iruDDVVk0g7D5Mm6YXMdw=
+		xAXo7nMQslafFWgibNB6GokolLM=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6+Yfr3iruDDVVk0g7D5Mm6YXMdw=
+		xAXo7nMQslafFWgibNB6GokolLM=
 		</data>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MxCAh+9YT5o0YBiyrmn3AOtTuSA=
+		pGOkbay4gsMTtf98r6DXVL4WELo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UY+zSniSfd/vsUlqQ5oHjWcvYG920/akCeZZOrSFtIE=
+			fl9U2YTpbk6s2UHNNRP4iZ6PgsnPd6h8t8eJ82aOz80=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jkjGvoUj7TISBT/AcSNCtsqxcL0yKHCoPd6C+O8hCo8=
+			YoqeRcsZftkb1tF7e3DmYIlj/HtmGtrG6/yyzcl7QYE=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jkjGvoUj7TISBT/AcSNCtsqxcL0yKHCoPd6C+O8hCo8=
+			YoqeRcsZftkb1tF7e3DmYIlj/HtmGtrG6/yyzcl7QYE=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m9WSZQCDvWeV2Vmi96qwvWgUGuRjwg0rxdHSPTSTy0I=
+			cRkUwtXQI+XdK5OwzZuVorzresGWnqTxhmYR+DPK1/U=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UY+zSniSfd/vsUlqQ5oHjWcvYG920/akCeZZOrSFtIE=
+			fl9U2YTpbk6s2UHNNRP4iZ6PgsnPd6h8t8eJ82aOz80=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			45fgSKAaO+0MlY+53ILiyDl7ThlgHy33fV3fsoDLYtI=
+			snf4GddwMw8/fCnLs8d9EpU3zyuY3+owaIPe7QyYwNM=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			45fgSKAaO+0MlY+53ILiyDl7ThlgHy33fV3fsoDLYtI=
+			snf4GddwMw8/fCnLs8d9EpU3zyuY3+owaIPe7QyYwNM=
 			</data>
 		</dict>
 		<key>Modules/NFCReaderFW.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uF8r78Vm77ZVdHhOi2ch2YPorUTBO+6c4lIIq/NJzMQ=
+			UxEkIleVFkPuCOc19j4l8+EVyb4VFEwC65fnroAuOZI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
